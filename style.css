@@ -51,7 +51,7 @@ body{
     =============  */
 #container{
     background-image:url("images/pexels-photo-3890564.jpg");
-    padding: 12rem 0 15rem;
+    padding: 8rem 0 8rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10rem 0 8rem 12rem;
+    padding: 5rem 0 3rem 12rem;
 
 }
 .about-section{
@@ -130,4 +130,64 @@ body{
     width: 32rem;
     letter-spacing: 1px;
     line-height:1.75rem;
+}
+#service{
+    background-color:gray;
+    width: 100%;
+    padding: 2rem 0 2rem 12rem ;
+}
+#service > p{
+   font-size: 25px;
+   color: blue;
+}
+
+#service > h1{
+    font-size: 3em;
+    font-weight: 500;
+    color:rgb(15, 160, 64);
+}
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+
+}
+.service-section{
+    flex-basis: 30%;
+    border: 1px solid #ddd;
+    margin: 1%;
+    background-color: #ddd;
+    padding: 1%;
+    box-shadow: 1px 1px 3px 3px #ddd;
+    text-align: center;
+}
+
+.service-section > h1{
+    font-size: 28px;
+    padding: 5px;
+    font-weight:normal;
+    color: rgb(80, 22, 166);
+    border-bottom: 2px solid yellow;
+}
+.service-section > p{
+    font-size: 16px;
+}
+.service-section > i{
+    background-color: brown;
+    border-radius: 50%;
+    padding:1rem;
+}
+.service-section:hover h1{
+    color: #000;
+}
+.service-section:hover p{
+    color: #000;
+}
+.service-section:hover i{
+    background-color: #feca57;
+}
+
+.service-section:hover{
+    background-color: aqua;
 }
