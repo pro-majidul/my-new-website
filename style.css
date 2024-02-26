@@ -51,8 +51,8 @@ body{
     =============  */
 #container{
     background-image:url("images/pexels-photo-3890564.jpg");
-    padding: 10rem 0;
-    background-position:center;
+    padding: 12rem 0 15rem;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .left-side{    
