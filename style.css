@@ -53,6 +53,7 @@ body{
     background-image:url("images/pexels-photo-3890564.jpg");
     padding: 12rem 0 15rem;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .left-side{    
