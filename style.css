@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+    /* ==============
+        Header area 
+        ================  */
+
+#header-area{
+    display: flex;
+    background-color:#42464b;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-design img{
+  width:140px;
+}
+
+
+.navigation{
+    text-align: right;
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation li{
+    display: inline;
+    margin-left: 20px;
+}
+.navigation a{
+    color: azure;
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all .2s ease-in;
+    
+}
+.navigation a:hover{
+    background-color: darkorange;
+    border-radius: 7px;
+}       
+
+    /*  ===========
+    Hero section area
+    =============  */
+#container{
+    background-image:url("images/pexels-photo-3890564.jpg");
+    padding: 10rem 0;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.left-side{    
+    width: 76%;
+    margin: 0 auto;
+}
+.left-side h1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.left-side p{
+    width: 74%;
+    line-height: 2rem;
+    font-size: 19px;
+    margin: 10px 0;
+
+}
+.left-side button{
+    font-size: 16px;
+    background-color: rgb(46, 33, 59);
+    padding: 8px 14px;
+    border-radius: 7px;
+    border: none;
+    color: bisque;
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px whitesmoke;
+    transition: all .4s ease-in;
+}
+.left-side button:hover{
+    background-color:#feca57;
+    color: black;
+}
+    
