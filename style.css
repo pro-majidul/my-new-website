@@ -86,4 +86,43 @@ body{
     background-color:#feca57;
     color: black;
 }
-    
+    /* About section area style */
+
+.about{
+    background-color: #82ccdd;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0 8rem 12rem;
+
+}
+.about-section{
+    flex-basis: 50%;
+}
+.about-section > h1{
+    font-size: 22px;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 1.25rem;
+}
+.about-section > p{
+    font-size: 16px;
+    color:black;
+    margin-bottom: 2rem;
+}
+.picture{
+    width: 12rem;
+    opacity: 0.8;
+}
+.details{
+    flex-basis: 50%;
+}
+.details > h1{
+    margin-bottom: 20px;
+}
+.details > P{
+    width: 32rem;
+    letter-spacing: 1px;
+    line-height:1.75rem;
+}
