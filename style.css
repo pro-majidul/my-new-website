@@ -105,6 +105,7 @@ body{
     color: black;
     letter-spacing: 2px;
     margin-bottom: 1.25rem;
+    justify-content: center;
 }
 .about-section > p{
     font-size: 16px;
@@ -114,6 +115,10 @@ body{
 .picture{
     width: 12rem;
     opacity: 0.8;
+}
+.about-section > img{
+    width: 60%;
+    border-radius: 5%;
 }
 .details{
     flex-basis: 50%;
