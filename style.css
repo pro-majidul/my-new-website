@@ -240,7 +240,7 @@ body{
 #blog-container{
     background-color:#ffeaa7;
     width: 100%;
-    padding: 2rem 0 2rem 12rem ;
+    padding: 2rem 0 7rem 12rem ;
 }
 #blog-container > h1 {
     color: rgb(22, 26, 13);
@@ -306,3 +306,99 @@ body{
     background: #000;
     color: #ddd;
 }
+/* footer Section area style  */
+.div-img img{
+    width:200px;
+}
+
+#footer-area{
+    width: 100%;
+    background-color: #232325;
+    /* padding: 2rem 0 2rem 12rem ; */
+    box-shadow: 0 0 22px 25px  #232325;
+    align-items: center;
+    text-align: center;    
+}
+.div-img{
+    padding-top: 4rem ;
+}
+
+.input-fill{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.input-fill .btn-ml {
+    width: 80%;
+    font-size: 28px;
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 0px 5px 0px;
+    height: 60px;
+    border: none;
+
+}
+
+.input-fill .sub-btn {
+    width: 30%;
+    font-size: 26px;
+    color: #f26522;
+    background-color: transparent;
+    padding: 20px 0px 5px 0px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+.sub-btn > a {
+    text-decoration:none ;
+    color: #f26522;
+    text-align: left;
+}
+.sub-btn > a:hover {
+   color: #fff;
+}
+
+.list-item {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+.list-item li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.list-item li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight:normal;
+    transition: all 1s;
+}
+.list-item li > a:hover{
+    color: #f26522;
+    
+}
+.list-item > address {
+    margin: 3rem 0 5rem 0;
+    color: #fff;
+}
+
+.list-item > P{
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.list-item > P > a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s;
+}
+.list-item  a:hover{
+    color: #f26522;
+    cursor: pointer;
+    
+}
+
